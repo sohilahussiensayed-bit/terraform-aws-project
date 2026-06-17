@@ -15,7 +15,7 @@ This Terraform module creates:
 
 ```hcl
 module "aws_infra" {
-  source = "github.com/USERNAME/terraform-aws-infra"
+  source = "github.com/sohilahussiensayed-bit/terraform-aws-infra"
 
   vpc_cidr           = "10.0.0.0/16"
   public_subnet_cidr = "10.0.1.0/24"
