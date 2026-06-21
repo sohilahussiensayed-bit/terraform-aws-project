@@ -22,3 +22,6 @@ module "aws_infra" {
   private_subnet_cidr = "10.0.3.0/24"
 }
 ```
+# Architecture
+
+![Architecture](images/Diagram.png)
